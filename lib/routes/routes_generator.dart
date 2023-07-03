@@ -38,7 +38,7 @@ class RoutesGenerator {
       case categoryPage:
         return _goPage(CategoryPage(controller: categoryController));
       case loginPage:
-        return _goPage(const LoginPage());
+        return _goPage(LoginPage());
       case addCategoryPage:
         return _goPage(CategoryAddPage(categoryController: categoryController));
       case editCategoryPage:
